@@ -1,26 +1,11 @@
-# NYC Job Market Data Mart Project
+# Job Market Analysis Using PowerBI
 
 ## 📊 Project Overview
 
-This project focuses on designing and building a **Data Mart** to analyze job market trends from NYC job postings data. Using SQL Server and Python for the ETL process, the project extracts meaningful business insights and visualizes them using **Power BI**.
+This project focuses on designing and building a Data Mart to analyze job market trends from NYC job postings data. Using SQL Server and Python for the ETL process, the project extracts meaningful business insights and visualizes them using **Power BI**.
 
-🔗 **Power BI Report**: <a href="https://app.powerbi.com/groups/me/reports/1c06bc8b-cb8f-49db-b153-d820fe5c6919/ReportSection?experience=power-bi" target="_blank">View Live Dashboard</a>
 
 ---
-
-## 📁 Project Structure
-
-```bash
-├── CreateTableQueries.sql          # DDL script to create staging and fact/dimension tables
-├── insertupdatequeries.sql         # ETL SQL code to load data into the Data Mart
-├── BusinessQuestions.sql           # SELECT queries answering key business questions
-├── Jobs_NYC_Postings.csv           # Raw dataset used in the project
-├── ERD.png                         # Final Entity-Relationship Diagram
-├── Initial_ERD.png                 # Initial logical schema
-├── Final_ERD.png                   # Refined star schema after normalization
-└── README.md                       # This file
-```
-
 ---
 
 ## 🧠 Business Questions Answered
@@ -100,21 +85,8 @@ ETL was performed using **Method 2 (SQL-based ETL with Python scripting)**:
 
 ## 🖼️ ERD Snapshots
 
-- **Initial ERD**: `Initial_ERD.png`
 - **Final ERD / Star Schema**: `Final_ERD.png` / `ERD.png`
 
-
 ---
 
-## 🖼️ Screenshots
 
-### 📌 Entity Relationship Diagram (Final Star Schema)
-![Final ERD](Final_ERD.png)
-
-### 📌 Power BI Dashboard
-![Power BI Dashboard](Dashboard.png)
-
-> These visuals provide structural context of the data mart and key insights through interactive charts.
-
-
----
